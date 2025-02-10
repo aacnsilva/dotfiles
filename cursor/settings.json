@@ -268,5 +268,9 @@
             ]
         },
     ],
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.menuBarVisibility": "compact",
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false
 }
