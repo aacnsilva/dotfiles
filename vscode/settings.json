@@ -1,19 +1,8 @@
 {
-    "github.copilot.editor.enableAutoCompletions": true,
     "git.autofetch": false,
-    "workbench.startupEditor": "newUntitledFile",
     "diffEditor.ignoreTrimWhitespace": false,
-    "[json]": {
-        "editor.defaultFormatter": "ms-dynamics-smb.al"
-    },
-    "editor.codeLens": false,
-    "[al]": {
-        "editor.defaultFormatter": "ms-dynamics-smb.al"
-    },
     "security.workspace.trust.untrustedFiles": "open",
     "editor.minimap.enabled": false,
-    "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false,
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
@@ -32,8 +21,6 @@
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
     "vim.normalModeKeyBindingsNonRecursive": [
-        // NAVIGATION
-        // switch b/w buffers
         {
             "before": [
                 "<S-h>"
@@ -50,7 +37,6 @@
                 ":bnext"
             ]
         },
-        // splits
         {
             "before": [
                 "leader",
@@ -69,7 +55,6 @@
                 ":split"
             ]
         },
-        // panes
         {
             "before": [
                 "leader",
@@ -213,7 +198,6 @@
                 "workbench.action.files.newUntitledFile"
             ]
         },
-        // copilot
         {
             "before": [
                 "leader",
@@ -234,37 +218,6 @@
                 "workbench.panel.chat.view.copilot.focus",
             ]
         },
-        // continue.dev
-        // {
-        //     "before": [
-        //         "leader",
-        //         "a",
-        //         "i"
-        //     ],
-        //     "commands": [
-        //         "continue.focusEdit",
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "leader",
-        //         "a",
-        //         "a"
-        //     ],
-        //     "commands": [
-        //         "continue.continueGUIView.focus",
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "d"
-        //     ],
-        //     "after": [
-        //         "\"",
-        //         "_",
-        //         "d"
-        //     ]
-        // },
         {
             "before": [
                 "x"
@@ -275,21 +228,8 @@
                 "x"
             ]
         },
-        // {
-        //     "before": [
-        //         "d",
-        //         "d"
-        //     ],
-        //     "after": [
-        //         "\"",
-        //         "_",
-        //         "d",
-        //         "d"
-        //     ]
-        // },
     ],
     "vim.visualModeKeyBindings": [
-        // Stay in visual mode while indenting
         {
             "before": [
                 "<"
@@ -306,34 +246,6 @@
                 "editor.action.indentLines"
             ]
         },
-        // Move selected lines while staying in visual mode
-        // {
-        //     "before": [
-        //         "J"
-        //     ],
-        //     "commands": [
-        //         "editor.action.moveLinesDownAction"
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "K"
-        //     ],
-        //     "commands": [
-        //         "editor.action.moveLinesUpAction"
-        //     ]
-        // },
-        // toggle comment selection
-        // {
-        //     "before": [
-        //         "leader",
-        //         "c"
-        //     ],
-        //     "commands": [
-        //         "editor.action.commentLine"
-        //     ]
-        // },
-        // copilot
         {
             "before": [
                 "leader",
@@ -344,20 +256,8 @@
                 "workbench.action.quickchat.launchInlineChat",
             ]
         },
-        // continue.dev
-        // {
-        //     "before": [
-        //         "leader",
-        //         "a",
-        //         "i"
-        //     ],
-        //     "commands": [
-        //         "continue.focusContinueInput",
-        //     ]
-        // }
     ],
     "vim.normalModeKeyBindings": [
-        // go to
         {
             "before": [
                 "g",
@@ -426,28 +326,7 @@
         },
     ],
     "editor.fontFamily": "JetBrainsMono NF",
-    // "editor.fontSize": 16,
     "editor.fontLigatures": true,
-    "terminal.explorerKind": "external",
-    "workbench.editor.editorActionsLocation": "hidden",
-    "debug.console.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
     "eslint.format.enable": true,
-    "typescript.format.enable": false,
-    "javascript.format.enable": false,
-    "window.menuBarVisibility": "compact",
-    "git.suggestSmartCommit": false,
     "extensions.ignoreRecommendations": true,
-    "editor.formatOnSave": true,
-    // "workbench.colorTheme": "Correia Gruvbox Theme",
-    "al.enableCodeAnalysis": true,
-    "al.outputAnalyzerStatistics": false,
-    "al.editorServicesLogLevel": "Normal", // This is for checking the LSP stuff in EditorServices.log in the AL extension under bin/win32
-    // "editor.formatOnSaveMode": "modifications",
-    "al.enableCodeActions": false,
-    // "github.copilot.chat.commitMessageGeneration.instructions": [
-    //     {
-    //         "text": "Please add the following at the beginning of the commit message: LSC-[branch numbers after the LSC-]",
-    //     },
-    // ],
 }
