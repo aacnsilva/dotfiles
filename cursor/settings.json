@@ -272,5 +272,6 @@
     "workbench.editor.editorActionsLocation": "hidden",
     "window.menuBarVisibility": "compact",
     "workbench.navigationControl.enabled": false,
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "al.enableCodeActions": false,
 }

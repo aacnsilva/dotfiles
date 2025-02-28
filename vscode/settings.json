@@ -329,4 +329,9 @@
     "editor.fontLigatures": true,
     "eslint.format.enable": true,
     "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "none",
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "al.enableCodeActions": false
 }
