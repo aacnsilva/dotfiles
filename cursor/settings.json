@@ -274,4 +274,8 @@
     "workbench.navigationControl.enabled": false,
     "workbench.layoutControl.enabled": false,
     "al.enableCodeActions": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
 }
