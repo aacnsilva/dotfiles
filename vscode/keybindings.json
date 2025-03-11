@@ -70,7 +70,7 @@
         "command": "workbench.action.toggleZenMode"
     },
     {
-        "key": "ctrl+k",
+        "key": "ctrl+l",
         "command": "workbench.action.toggleAuxiliaryBar"
     }
 ]
