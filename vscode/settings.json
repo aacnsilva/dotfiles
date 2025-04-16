@@ -333,5 +333,11 @@
     "[typescript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
-    "al.enableCodeActions": false
+    "al.enableCodeActions": false,
+    "workbench.colorTheme": "GitHub Light",
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact"
 }
