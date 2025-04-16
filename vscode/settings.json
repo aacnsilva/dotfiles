@@ -339,5 +339,6 @@
     "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
     "window.commandCenter": false,
-    "window.menuBarVisibility": "compact"
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "top"
 }
