@@ -340,5 +340,11 @@
     "workbench.navigationControl.enabled": false,
     "window.commandCenter": false,
     "window.menuBarVisibility": "compact",
-    "workbench.activityBar.location": "top"
+    "workbench.activityBar.location": "top",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
 }
