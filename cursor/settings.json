@@ -270,7 +270,6 @@
     ],
     "extensions.ignoreRecommendations": true,
     "workbench.editor.editorActionsLocation": "hidden",
-    "window.menuBarVisibility": "compact",
     "workbench.navigationControl.enabled": false,
     "workbench.layoutControl.enabled": false,
     "al.enableCodeActions": false,
@@ -280,4 +279,5 @@
     },
     "eslint.format.enable": true,
     "workbench.colorTheme": "GitHub Light",
+    "workbench.sideBar.location": "right",
 }
