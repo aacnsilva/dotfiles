@@ -326,6 +326,7 @@
         },
     ],
     "editor.fontFamily": "JetBrainsMono NF",
+    "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "eslint.format.enable": true,
     "extensions.ignoreRecommendations": true,
@@ -334,7 +335,7 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "al.enableCodeActions": false,
-    "workbench.colorTheme": "GitHub Light",
+    "workbench.colorTheme": "GitHub Dark",
     "chat.commandCenter.enabled": false,
     "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
