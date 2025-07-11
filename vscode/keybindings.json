@@ -72,5 +72,10 @@
     {
         "key": "ctrl+l",
         "command": "workbench.panel.chat"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled"
     }
 ]
