@@ -343,10 +343,12 @@
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.location": "top",
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": false,
         "markdown": false,
         "scminput": false
     },
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "git.blame.editorDecoration.enabled": true,
 }
