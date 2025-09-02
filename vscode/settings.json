@@ -335,7 +335,7 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "al.enableCodeActions": false,
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "onedark.nvim",
     "chat.commandCenter.enabled": false,
     "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
