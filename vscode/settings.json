@@ -351,4 +351,5 @@
     "workbench.sideBar.location": "right",
     "github.copilot.nextEditSuggestions.enabled": true,
     "git.blame.editorDecoration.enabled": true,
+    "editor.formatOnSave": true
 }
