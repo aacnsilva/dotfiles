@@ -205,7 +205,7 @@
                 "i"
             ],
             "commands": [
-                "workbench.action.quickchat.launchInlineChat",
+                "inlineChat.start",
             ]
         },
         {
@@ -343,7 +343,7 @@
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.location": "top",
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false
