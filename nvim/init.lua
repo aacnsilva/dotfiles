@@ -55,3 +55,4 @@ vim.keymap.set("i", "jj", "<Esc>", { desc = "Exit insert mode" })
 -- Save with Ctrl+S in multiple modes
 vim.keymap.set({ "n", "v" }, "<C-s>", ":w<CR>", { desc = "Save file" })
 vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>a", { desc = "Save file" })
+vim.keymap.set("n", "<Esc>", ":nohl<CR>", { desc = "Remove highlights" })
