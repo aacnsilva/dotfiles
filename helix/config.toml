@@ -1,0 +1,13 @@
+theme = "onedark"
+
+[editor]
+line-number = "relative"
+
+[keys.normal]
+C-s = ":w"
+X = "extend_line_above"
+G = "goto_last_line"
+K = "hover"
+
+[keys.insert]
+j = { j = "normal_mode" } # Maps `jk` to exit insert mode
