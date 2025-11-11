@@ -351,5 +351,8 @@
 	"workbench.sideBar.location": "right",
 	"github.copilot.nextEditSuggestions.enabled": true,
 	"git.blame.editorDecoration.enabled": true,
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"editor.inlayHints.enabled": "on",
+	"al.inlayhints.parameterNames.enabled": true,
+	"al.inlayhints.functionReturnTypes.enabled": true
 }
