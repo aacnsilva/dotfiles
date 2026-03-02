@@ -326,7 +326,7 @@
 		},
 	],
 	"editor.fontFamily": "JetBrainsMono NF",
-	"editor.fontSize": 16,
+	// "editor.fontSize": 16,
 	"editor.fontLigatures": true,
 	"eslint.format.enable": true,
 	"extensions.ignoreRecommendations": true,
@@ -350,9 +350,13 @@
 	},
 	"workbench.sideBar.location": "right",
 	"github.copilot.nextEditSuggestions.enabled": true,
-	"git.blame.editorDecoration.enabled": true,
+	"git.blame.editorDecoration.enabled": false,
 	"editor.formatOnSave": true,
 	"editor.inlayHints.enabled": "on",
 	"al.inlayhints.parameterNames.enabled": true,
-	"al.inlayhints.functionReturnTypes.enabled": true
+	"al.inlayhints.functionReturnTypes.enabled": true,
+	"scm.repositories.selectionMode": "single",
+	"gitlens.ai.model": "vscode",
+	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
+	"chat.viewSessions.orientation": "stacked"
 }
