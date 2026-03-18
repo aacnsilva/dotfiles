@@ -335,7 +335,6 @@
 		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
 	},
 	"al.enableCodeActions": false,
-	"workbench.colorTheme": "One Dark Pro",
 	"chat.commandCenter.enabled": false,
 	"workbench.layoutControl.enabled": false,
 	"workbench.navigationControl.enabled": false,
@@ -358,5 +357,6 @@
 	"scm.repositories.selectionMode": "single",
 	"gitlens.ai.model": "vscode",
 	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
-	"chat.viewSessions.orientation": "stacked"
+	"chat.viewSessions.orientation": "stacked",
+	"workbench.colorTheme": "poimandres"
 }
